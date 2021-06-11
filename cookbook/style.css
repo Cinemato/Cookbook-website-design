@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #EEF5DB;
+}
+
+
+header{
+    box-shadow: 0 0 10px rgb(0,0,0,0.5);
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background: #FE5F55;
+    color: #EEF5DB;
+}
+
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 15px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: #EEF5DB;
+    text-decoration: none;
+    transition: font-size 0.5s
+}
+
+nav ul li{
+    font-size: 22px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo{
+    font-family: 'Orelega One', cursive;
+    font-size: 30px;
+    transition: font-size 0.5s;
+}
+
+.logo:hover{
+    font-size: 33px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.textbox{
+    text-align: center;
+    color: #FE5F55;
+    max-width: 45%;
+    background: wheat;
+    padding: 20px 50px;
+    border-radius: 20px;
+    border-bottom: 5px solid #FE5F55;
+}
+
+.btn{
+    padding: 20px;
+    background: #FE5F55;
+    color: #EEF5DB;
+    font-weight: bold;
+    width: 200px;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid #FE5F55;
+    transition: background 0.3s, border 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #EEF5DB;
+    border: 1px solid #FE5F55;
+    color: #FE5F55;
+}
+
+.image{
+    max-width: 45%;
+}
+
+.image img{
+    width: 100%;
+}
+
+.col-2{
+    display: flex;
+    margin: 125px 0px 150px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-1{
+    margin-bottom: 125px;
+}
+
+.innertext{
+    margin-bottom: 35px;
+}
+
+.login .innertext a{
+    color: #FE5F55;
+    font-weight: bold;
+}
+
+.textbox .innertext{
+    text-align: left;
+}
+
+hr{
+    background: #FE5F55;
+    border: 2px solid #FE5F55;
+    width: 50%;
+    margin: auto;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 500px;
+}
+
+.input input[type = "text"], .input input[type = "password"]{
+    height: 40px;
+    font-size: 18px;
+}
+
+.flex-center input[type = "text"], .flex-center input[type = "password"]{
+    margin-left: 10px;
+}
+
+.input input[type = "text"], .input input[type = "password"], .input textarea{
+    width: 100%;
+    border: 2px solid #FE5F55;
+    color: #FE5F55;
+    font-weight: bold;
+    background: #EEF5DB;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    transition: border 0.2s;
+}
+
+.input textarea{
+    height: 200px;
+    font-size: 14px;
+    resize: none;
+}
+
+.input input[type = "text"]:focus, .input input[type = "password"]:focus, .input textarea:focus{
+    border: 4px solid #FE5F55;
+}
+
+.input input[type = "submit"]{
+    width: 100%;
+    padding: 10px;
+}
+
+.auto{
+    margin: auto;
+}
+
+.login{
+    margin-top: 10%;
+    width: 500px;
+}
+
+.login .input{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.login .input h2{
+    margin-bottom: 5px;
+}
